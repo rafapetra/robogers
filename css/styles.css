@@ -1,3 +1,42 @@
 .hidden {
   display: none;
 }
+
+.container {
+  background-color: aqua;
+  width: 800px;
+  height: 100%;
+  margin: auto;
+  padding: 5%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #efea8e;
+  justify-content: center;
+}
+
+.content {
+  order: 1;
+  padding: 10px;
+  text-align: left;
+  background-color: #60b8c2;
+  justify-content: space-evenly;
+  gap: 10px 10px;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+}
+
+.print {
+  order: 2;
+  padding: 5px;
+  background-color: #8ec5ef;
+  justify-content: space-evenly;
+  gap: 10px 10px;
+  width: 90%;
+}
+
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
